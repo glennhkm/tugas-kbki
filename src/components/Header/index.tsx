@@ -57,7 +57,7 @@ const Header = () => {
           }`}
         >
           {/* <!-- header top left --> */}
-          <div className="xl:w-auto flex-col sm:flex-row w-full flex sm:justify-between sm:items-center gap-2 sm:gap-3">
+          <div className="xl:w-auto flex-col sm:flex-row w-full flex sm:justify-between sm:items-center gap-2 sm:gap-2">
             {/* <Link className="flex-shrink-0" href="/">
               <Image
                 src="/images/logo/logo.svg"
@@ -73,7 +73,7 @@ const Header = () => {
               height={40}
             />
             <Link href={"/"} className="font-bold text-xl mr-4">
-              Lokatani
+              LokaTani
             </Link>
 
             <div className="max-w-[475px] w-full">
