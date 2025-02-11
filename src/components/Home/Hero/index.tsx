@@ -25,11 +25,17 @@ const Hero = () => {
 
           <div className="xl:max-w-[393px] w-full">
             <div className="flex flex-col sm:flex-row xl:flex-col gap-5">
-              <div className="w-full relative rounded-[10px] bg-white p-4 sm:p-7.5">
-                <div className="flex items-center gap-14">
-                  <div>
+              <div className="w-full relative rounded-[10px] bg-white">
+                <div className="flex relative items-center gap-14 z-30">
+                  <Image 
+                    src="/images/hero/hero-04.png"
+                    alt="mobile image"
+                    fill
+                    className="object-cover -z-10 rounded-[10px]"
+                  />
+                  <div className="p-4 sm:p-7.5">
                     <h2 className="max-w-[153px] font-semibold text-dark text-xl mb-20">
-                      <a href="#"> iPhone 14 Plus & 14 Pro Max </a>
+                      <a href="#">Buah-Buahan</a>
                     </h2>
 
                     <div>
@@ -38,30 +44,36 @@ const Hero = () => {
                       </p>
                       <span className="flex items-center gap-3">
                         <span className="font-medium text-heading-5 text-red">
-                          $699
+                          Rp. 10.000
                         </span>
                         <span className="font-medium text-2xl text-dark-4 line-through">
-                          $999
+                        Rp. 15.000
                         </span>
                       </span>
                     </div>
                   </div>
 
-                  <div>
+                  {/* <div>
                     <Image
                       src="/images/hero/hero-02.png"
                       alt="mobile image"
                       width={123}
                       height={161}
                     />
-                  </div>
+                  </div> */}
                 </div>
               </div>
-              <div className="w-full relative rounded-[10px] bg-white p-4 sm:p-7.5">
-                <div className="flex items-center gap-14">
-                  <div>
+              <div className="w-full relative rounded-[10px] bg-white">
+                <div className="flex relative items-center gap-14 z-30">
+                  <Image 
+                    src="/images/hero/hero-04.png"
+                    alt="mobile image"
+                    fill
+                    className="object-cover -z-10 rounded-[10px]"
+                  />
+                  <div className="p-4 sm:p-7.5">
                     <h2 className="max-w-[153px] font-semibold text-dark text-xl mb-20">
-                      <a href="#"> Wireless Headphone </a>
+                      <a href="#">Buah-Buahan</a>
                     </h2>
 
                     <div>
@@ -70,23 +82,23 @@ const Hero = () => {
                       </p>
                       <span className="flex items-center gap-3">
                         <span className="font-medium text-heading-5 text-red">
-                          $699
+                          Rp. 10.000
                         </span>
                         <span className="font-medium text-2xl text-dark-4 line-through">
-                          $999
+                        Rp. 15.000
                         </span>
                       </span>
                     </div>
                   </div>
 
-                  <div>
+                  {/* <div>
                     <Image
-                      src="/images/hero/hero-01.png"
+                      src="/images/hero/hero-02.png"
                       alt="mobile image"
                       width={123}
                       height={161}
                     />
-                  </div>
+                  </div> */}
                 </div>
               </div>
 

@@ -24,7 +24,13 @@ const HeroCarousal = () => {
       className="hero-carousel"
     >
       <SwiperSlide>
-        <div className="flex items-center pt-6 sm:pt-0 flex-col-reverse sm:flex-row">
+        <div className="flex relative items-center pt-6 sm:pt-0 flex-col-reverse sm:flex-row">      
+          <Image
+            src="/images/hero/hero-04.png"
+            alt="hero-04"
+            fill
+            className="object-cover -z-10"
+          />
           <div className="max-w-[394px] py-10 sm:py-15 lg:py-24.5 pl-4 sm:pl-7.5 lg:pl-12.5">
             <div className="flex items-center gap-4 mb-7.5 sm:mb-10">
               <span className="block font-semibold text-heading-3 sm:text-heading-1 text-blue">
@@ -38,7 +44,7 @@ const HeroCarousal = () => {
             </div>
 
             <h1 className="font-semibold text-dark text-xl sm:text-3xl mb-3">
-              <a href="#">True Wireless Noise Cancelling Headphone</a>
+              <a href="#">Fresh & Organic Fruit</a>
             </h1>
 
             <p>
@@ -53,20 +59,25 @@ const HeroCarousal = () => {
             </a>
           </div>
 
-          <div>
+          {/* <div>
             <Image
               src="/images/hero/hero-01.png"
               alt="headphone"
               width={351}
               height={358}
             />
-          </div>
+          </div> */}
         </div>
       </SwiperSlide>
       <SwiperSlide>
-        {" "}
-        <div className="flex items-center pt-6 sm:pt-0 flex-col-reverse sm:flex-row">
-          <div className="max-w-[394px] py-10 sm:py-15 lg:py-26 pl-4 sm:pl-7.5 lg:pl-12.5">
+        <div className="flex relative items-center pt-6 sm:pt-0 flex-col-reverse sm:flex-row">      
+          <Image
+            src="/images/hero/hero-04.png"
+            alt="hero-04"
+            fill
+            className="object-cover -z-10"
+          />
+          <div className="max-w-[394px] py-10 sm:py-15 lg:py-24.5 pl-4 sm:pl-7.5 lg:pl-12.5">
             <div className="flex items-center gap-4 mb-7.5 sm:mb-10">
               <span className="block font-semibold text-heading-3 sm:text-heading-1 text-blue">
                 30%
@@ -79,12 +90,11 @@ const HeroCarousal = () => {
             </div>
 
             <h1 className="font-semibold text-dark text-xl sm:text-3xl mb-3">
-              <a href="#">True Wireless Noise Cancelling Headphone</a>
+              <a href="#">Fresh & Organic Fruits</a>
             </h1>
 
             <p>
-              Lorem ipsum dolor sit, consectetur elit nunc suscipit non ipsum
-              nec suscipit.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi at ipsum at risus euismod lobortis in
             </p>
 
             <a
@@ -95,14 +105,14 @@ const HeroCarousal = () => {
             </a>
           </div>
 
-          <div>
+          {/* <div>
             <Image
               src="/images/hero/hero-01.png"
               alt="headphone"
               width={351}
               height={358}
             />
-          </div>
+          </div> */}
         </div>
       </SwiperSlide>
     </Swiper>

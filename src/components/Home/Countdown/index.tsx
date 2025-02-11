@@ -30,16 +30,23 @@ const CounDown = () => {
     <section className="overflow-hidden py-20">
       <div className="max-w-[1170px] w-full mx-auto px-4 sm:px-8 xl:px-0">
         <div className="relative overflow-hidden z-1 rounded-lg bg-[#D0E9F3] p-4 sm:p-7.5 lg:p-10 xl:p-15">
+          <Image
+            src="/images/hero/hero-06.png"
+            alt="mobile image"
+            fill
+            className="object-cover -z-10 rounded-[10px]"
+          />
           <div className="max-w-[422px] w-full">
             <span className="block font-medium text-custom-1 text-blue mb-2.5">
               Don’t Miss!!
             </span>
 
-            <h2 className="font-bold text-dark text-xl lg:text-heading-4 xl:text-heading-3 mb-3">
-              Enhance Your Music Experience
+            <h2 className="font-bold text-blue text-xl lg:text-heading-4 xl:text-heading-3 mb-3">
+            Get Up to 30% Off
+            Vegetable
             </h2>
 
-            <p>The Havit H206d is a wired PC headphone.</p>
+            <p>Fresh for our farm.</p>
 
             {/* <!-- Countdown timer --> */}
             <div
@@ -50,13 +57,13 @@ const CounDown = () => {
               {/* <!-- timer day --> */}
               <div>
                 <span
-                  className="min-w-[64px] h-14.5 font-semibold text-xl lg:text-3xl text-dark rounded-lg flex items-center justify-center bg-white shadow-2 px-4 mb-2"
+                  className="min-w-[64px] h-14.5 font-semibold text-xl lg:text-3xl text-blue rounded-lg flex items-center justify-center bg-white shadow-2 px-4 mb-2"
                   x-text="days"
                 >
                   {" "}
                   {days < 10 ? "0" + days : days}{" "}
                 </span>
-                <span className="block text-custom-sm text-dark text-center">
+                <span className="block text-custom-sm text-blue text-center">
                   Days
                 </span>
               </div>
@@ -64,13 +71,13 @@ const CounDown = () => {
               {/* <!-- timer hours --> */}
               <div>
                 <span
-                  className="min-w-[64px] h-14.5 font-semibold text-xl lg:text-3xl text-dark rounded-lg flex items-center justify-center bg-white shadow-2 px-4 mb-2"
+                  className="min-w-[64px] h-14.5 font-semibold text-xl lg:text-3xl text-blue rounded-lg flex items-center justify-center bg-white shadow-2 px-4 mb-2"
                   x-text="hours"
                 >
                   {" "}
                   {hours < 10 ? "0" + hours : hours}{" "}
                 </span>
-                <span className="block text-custom-sm text-dark text-center">
+                <span className="block text-custom-sm text-blue text-center">
                   Hours
                 </span>
               </div>
@@ -78,12 +85,12 @@ const CounDown = () => {
               {/* <!-- timer minutes --> */}
               <div>
                 <span
-                  className="min-w-[64px] h-14.5 font-semibold text-xl lg:text-3xl text-dark rounded-lg flex items-center justify-center bg-white shadow-2 px-4 mb-2"
+                  className="min-w-[64px] h-14.5 font-semibold text-xl lg:text-3xl text-blue rounded-lg flex items-center justify-center bg-white shadow-2 px-4 mb-2"
                   x-text="minutes"
                 >
                   {minutes < 10 ? "0" + minutes : minutes}{" "}
                 </span>
-                <span className="block text-custom-sm text-dark text-center">
+                <span className="block text-custom-sm text-blue text-center">
                   Minutes
                 </span>
               </div>
@@ -91,12 +98,12 @@ const CounDown = () => {
               {/* <!-- timer seconds --> */}
               <div>
                 <span
-                  className="min-w-[64px] h-14.5 font-semibold text-xl lg:text-3xl text-dark rounded-lg flex items-center justify-center bg-white shadow-2 px-4 mb-2"
+                  className="min-w-[64px] h-14.5 font-semibold text-xl lg:text-3xl text-blue rounded-lg flex items-center justify-center bg-white shadow-2 px-4 mb-2"
                   x-text="seconds"
                 >
                   {seconds < 10 ? "0" + seconds : seconds}{" "}
                 </span>
-                <span className="block text-custom-sm text-dark text-center">
+                <span className="block text-custom-sm text-blue text-center">
                   Seconds
                 </span>
               </div>
@@ -112,7 +119,7 @@ const CounDown = () => {
           </div>
 
           {/* <!-- bg shapes --> */}
-          <Image
+          {/* <Image
             src="/images/countdown/countdown-bg.png"
             alt="bg shapes"
             className="hidden sm:block absolute right-0 bottom-0 -z-1"
@@ -125,7 +132,7 @@ const CounDown = () => {
             className="hidden lg:block absolute right-4 xl:right-33 bottom-4 xl:bottom-10 -z-1"
             width={411}
             height={376}
-          />
+          /> */}
         </div>
       </div>
     </section>

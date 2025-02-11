@@ -8,12 +8,13 @@ const Newsletter = () => {
         <div className="relative z-1 overflow-hidden rounded-xl">
           {/* <!-- bg shapes --> */}
           <Image
-            src="/images/shapes/newsletter-bg.jpg"
+            src="/images/hero/hero-07.png"
             alt="background illustration"
-            className="absolute -z-1 w-full h-full left-0 top-0 rounded-xl"
+            className="absolute -z-1 w-full h-full left-0 top-0 rounded-xl object-cover"
             width={1170}
             height={200}
           />
+          <div className="absolute top-0 left-0 w-full h-full bg-dark/60 -z-1"></div>
           <div className="absolute -z-1 max-w-[523px] max-h-[243px] w-full h-full right-0 top-0 bg-gradient-1"></div>
 
           <div className="flex flex-col lg:flex-row lg:items-center lg:justify-between gap-8 px-4 sm:px-7.5 xl:pl-12.5 xl:pr-14 py-11">
